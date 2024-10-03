@@ -57,7 +57,7 @@ void greetj() {
     printf(" 7-SquareRoot\n");
     printf(" 8-Circle Perimeter\n");
     printf(" 9-Modulo\n");
-    printf(" 0-Percent\n);
+    printf(" 0-Percent\n");
     printf(":");
     opt = (int) get_input();
     return;
