@@ -57,6 +57,7 @@ void greetj() {
     printf(" 7-SquareRoot\n");
     printf(" 8-Circle Perimeter\n");
     printf(" 9-Modulo\n");
+    printf(" 0-Percent\n);
     printf(":");
     opt = (int) get_input();
     return;
@@ -108,6 +109,10 @@ void swmup() {
         case 9:
             dnask();
             rs = n1%n2;
+            break;
+        case 0:
+            dnask();
+            percent(n1,n2);
             break;
 }
 }
