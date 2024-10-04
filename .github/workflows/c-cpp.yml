@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: build
-      run: gcc main.c -o calc.exe
+      run: gcc main.c -lm -o calc.exe
